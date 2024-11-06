@@ -1,4 +1,4 @@
-#Project Purpose
+# Project Purpose
 
 This project was created as part of a technical assessment for a job interview, with a three-day window to complete and submit it. The files included in this repository remain exactly as submitted during the interview process, showcasing the unmodified work. This project demonstrates my ability in RESTful API design, database management, and Docker integration, implemented through a Java-based microservice using Spring Boot for managing customer accounts and invoicing. Additional information about the assessment requirements can be found in the `Java Developer Case Study.pdf` included in this repository.
 
@@ -71,13 +71,13 @@ The application provides RESTful APIs to manage customers, products, and invoice
 - Get All Invoices: GET /invoices
 
 # Running Tests
-To run the unit tests, navigate to the root directory of the project and use the following command:
+To run the tests, navigate to the root directory of the project and use the following command:
 
 	```sh
 	./mvnw test
 	```
 
-This will execute all the unit tests and display the results.
+This will execute all the tests and display the results.
 
 # Docker Compose Configuration
 The docker-compose.yml file defines the services and their configurations. It includes the PostgreSQL database and the Spring Boot application.
