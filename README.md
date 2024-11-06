@@ -18,9 +18,9 @@ This project uses PostgreSQL as the database. To simplify the setup process, Doc
 1. Start the Docker Containers:
 Navigate to the root directory of the project, open a terminal, and use the following command to build the Docker image and start the containers for the services:
 
-	```sh
-	docker-compose up --build
-	```
+```sh
+docker-compose up --build
+```
 
 This command will start the PostgreSQL database and the Spring Boot application. The database will be initialized with the necessary schema using the `init.sql` script.
 
@@ -73,9 +73,9 @@ The application provides RESTful APIs to manage customers, products, and invoice
 # Running Tests
 To run the tests, navigate to the root directory of the project and use the following command:
 
-	```sh
-	./mvnw test
-	```
+```sh
+./mvnw test
+```
 
 This will execute all the tests and display the results.
 
