@@ -1,6 +1,6 @@
 # Project Purpose
 
-This project was created as part of a technical assessment for a job interview, with a three-day window to complete and submit it. The files included in this repository remain exactly as submitted during the interview process, showcasing the unmodified work. This project demonstrates my ability in RESTful API design, database management, and Docker integration, implemented through a Java-based microservice using Spring Boot for managing customer accounts and invoicing. Additional information about the assessment requirements can be found in the `Java Developer Case Study.pdf` included in this repository.
+This project was created in July 2024 as part of a technical assessment for a job interview, with a three-day window to complete and submit it. The files included in this repository remain exactly as submitted during the interview process, showcasing the unmodified work. This project demonstrates my ability in RESTful API design, database management, and Docker integration, implemented through a Java-based microservice using Spring Boot for managing customer accounts and invoicing. Additional information about the assessment requirements can be found in the `Java Developer Case Study.pdf` included in this repository.
 
 ## Getting Started
 To review this project, clone the repository to get the files locally.
@@ -9,6 +9,10 @@ To review this project, clone the repository to get the files locally.
 
 ## Setting Up the Database
 This project uses PostgreSQL as the database. To simplify the setup process, Docker is used to create and initialize the database.
+
+## Docker Compose Configuration
+The docker-compose.yml file defines the services and their configurations. It includes the PostgreSQL database and the Spring Boot application.
+It handles all the necessary configurations for the services, including environment variables for the PostgreSQL database connection. You do not need to change any environment variables manually.
 
 ## Prerequisites
 - Docker installed on your machine
@@ -78,7 +82,3 @@ To run the tests, navigate to the root directory of the project and use the foll
 ```
 
 This will execute all the tests and display the results.
-
-# Docker Compose Configuration
-The docker-compose.yml file defines the services and their configurations. It includes the PostgreSQL database and the Spring Boot application.
-It handles all the necessary configurations for the services, including environment variables for the PostgreSQL database connection. You do not need to change any environment variables manually.
